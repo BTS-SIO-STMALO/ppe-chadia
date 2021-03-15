@@ -18,13 +18,8 @@
             Inscription
      </button>
      </div>
+<?php include 'templates/footer.php'; ?>
 </body>
-<footer>
-
-<button class="buttonfooter"
-         type="button"><a href="pages/mentionslegales.php">
-            Mentions légales
-
-</footer>
+</html>
 
 

@@ -1,0 +1,145 @@
+body {
+    background: url(../images/background.jpg) no-repeat center center fixed; 
+     background-size: cover;
+     overflow: scroll;
+}
+ /* Les elements du header */
+nav {
+    padding: 30px;
+    text-align: center;
+    background: #025a31;
+    font-size: 15px;
+  }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    justify-content: space-between;
+} 
+
+li {
+    margin-left: 2.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+a:hover{
+    color: rgba(194, 243, 138, 0.746);
+    text-decoration: underline;
+}
+
+#conteneur{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10%;
+    
+
+    }   
+.element{
+    padding: 5px;
+} 
+
+.titre{
+    font-size: 40px;
+    color: wheat;
+    text-align: center;
+    margin-top:3%;
+}
+/* elements de la table */
+h3{
+    margin-left: 42%;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse; 
+    width: 500px;
+    height: 300px;
+    margin-left: 35%;
+}
+td{
+    border: 2px solid black;
+}
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+
+
+
+/* elements des boutons */
+.button1 {
+    margin-top: 15%;
+    
+    border: 0;
+    line-height: 2.5;
+    padding: 0 25px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:#819037;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.button1:hover {
+    background-color:lightgreen;
+
+}
+.button2{
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:#819037;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-left: 45%;
+}
+
+
+
+
+/* les elements du footer */
+footer {
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    background-color:#025A31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    margin-bottom: 0px;
+   
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+     text-align: center; 
+}
+
+
+ 

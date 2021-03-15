@@ -20,11 +20,7 @@
     <label>Code Postale</label>  <input type="tel" name="codepostale" />
     <input type="submit" value="Envoyer" id="send"/>
 </form>
+
+
 </body>
-<footer>
-
-    <button class="buttonfooter"
-         type="button"><a href="pages/mentionslegales.php">
-            Mentions légales
-
-</footer>
+</html>

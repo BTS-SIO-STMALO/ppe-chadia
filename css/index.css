@@ -43,21 +43,27 @@ a {
 .button1:hover {
     background-color:lightgreen;
 }
-footer {
+
+    footer {
     position : absolute;
-    height: 50px;
+    height: 30px;
     width: 100%;
-    background-color:rgb(207, 147, 49);
+    background-color:#025a31;
     display: flex;
     align-items: center;
     justify-content: center;
     bottom: 0;
-    margin-bottom: -50px;
+    margin-bottom: 0px;
 }
-.buttonfooter{
-    background-color:#819037;
+a {
     color: white;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
 }
-.buttonfooter:hover{
-    background-color:lightgreen;
+
+
+a:hover{
+    color: rgba(194, 243, 138, 0.746);
+    text-decoration: underline;
 }
