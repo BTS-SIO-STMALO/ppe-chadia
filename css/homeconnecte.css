@@ -58,15 +58,13 @@ a:hover{
     margin-top:3%;
 }
 /* elements de la table */
-h3{
-    margin-left: 42%;
-}
+
 
 table{
     border: 2px solid black;
     border-collapse: collapse; 
     width: 500px;
-    height: 300px;
+    height: 200px;
     margin-left: 35%;
 }
 td{
@@ -119,11 +117,44 @@ tr:hover {
 }
 
 
+.button3{
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:#819037;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-left: 45%;
+    margin-top: 2%;
+
+
+
+}
+h2{
+    
+    font-size:30px;
+   ;
+}
+h4{
+ margin-left: 43%;
+}
+
+/* les elements de page fiche livre */
+#titreDuLivre{
+    font-size:20px;
+    margin-left: 38%;
+}
+
+
 
 
 /* les elements du footer */
 footer {
-    position: fixed;
+    position: relative;
     height: 30px;
     width: 100%;
     background-color:#025A31;
@@ -143,3 +174,21 @@ a {
 
 
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,6 +8,7 @@ body {
 }
 
 
+
 h1{
     color: wheat;
     font-family: Georgia, serif;
@@ -45,7 +46,7 @@ a {
 }
 
     footer {
-    position : absolute;
+    position: relative;
     height: 30px;
     width: 100%;
     background-color:#025a31;
